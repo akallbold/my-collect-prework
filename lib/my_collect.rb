@@ -3,5 +3,6 @@ def my_collect(array)
 
   while counter<array.size do
     yield(array[counter])
+    counter+=1
   end
 end
