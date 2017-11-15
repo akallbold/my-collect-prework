@@ -5,4 +5,5 @@ def my_collect(array)
     output<< yield(array[counter])
     counter+=1
   end
+  output
 end
